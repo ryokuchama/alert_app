@@ -14,6 +14,17 @@
 		C7D9CF7D29B20DD900EC1537 /* AlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CF7C29B20DD900EC1537 /* AlertTests.swift */; };
 		C7D9CF8729B20DD900EC1537 /* AlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CF8629B20DD900EC1537 /* AlertUITests.swift */; };
 		C7D9CF8929B20DD900EC1537 /* AlertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CF8829B20DD900EC1537 /* AlertUITestsLaunchTests.swift */; };
+		C7D9CF9929B8DD0800EC1537 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CF9829B8DD0800EC1537 /* SettingView.swift */; };
+		C7D9CF9B29B8DD5A00EC1537 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CF9A29B8DD5A00EC1537 /* MainViewModel.swift */; };
+		C7D9CF9D29B8DD7E00EC1537 /* MainViewModelBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CF9C29B8DD7E00EC1537 /* MainViewModelBaseClass.swift */; };
+		C7D9CF9F29B8DDA600EC1537 /* SettingViewModelBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CF9E29B8DDA600EC1537 /* SettingViewModelBaseClass.swift */; };
+		C7D9CFA129B8DDB500EC1537 /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CFA029B8DDB500EC1537 /* SettingViewModel.swift */; };
+		C7D9CFA329B8E03100EC1537 /* UserDefaultDaoBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CFA229B8E03100EC1537 /* UserDefaultDaoBaseClass.swift */; };
+		C7D9CFA529B8E04200EC1537 /* UserDefaultDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CFA429B8E04200EC1537 /* UserDefaultDao.swift */; };
+		C7D9CFA729B8E14F00EC1537 /* NotificationPusher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CFA629B8E14F00EC1537 /* NotificationPusher.swift */; };
+		C7D9CFA929B8E16300EC1537 /* NotificationPusherBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CFA829B8E16300EC1537 /* NotificationPusherBaseClass.swift */; };
+		C7D9CFAB29B8E21000EC1537 /* TimerBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CFAA29B8E21000EC1537 /* TimerBaseClass.swift */; };
+		C7D9CFAD29B8E28000EC1537 /* TimerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CFAC29B8E28000EC1537 /* TimerClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,17 @@
 		C7D9CF8229B20DD900EC1537 /* AlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D9CF8629B20DD900EC1537 /* AlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUITests.swift; sourceTree = "<group>"; };
 		C7D9CF8829B20DD900EC1537 /* AlertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C7D9CF9829B8DD0800EC1537 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		C7D9CF9A29B8DD5A00EC1537 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		C7D9CF9C29B8DD7E00EC1537 /* MainViewModelBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelBaseClass.swift; sourceTree = "<group>"; };
+		C7D9CF9E29B8DDA600EC1537 /* SettingViewModelBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModelBaseClass.swift; sourceTree = "<group>"; };
+		C7D9CFA029B8DDB500EC1537 /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
+		C7D9CFA229B8E03100EC1537 /* UserDefaultDaoBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultDaoBaseClass.swift; sourceTree = "<group>"; };
+		C7D9CFA429B8E04200EC1537 /* UserDefaultDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultDao.swift; sourceTree = "<group>"; };
+		C7D9CFA629B8E14F00EC1537 /* NotificationPusher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPusher.swift; sourceTree = "<group>"; };
+		C7D9CFA829B8E16300EC1537 /* NotificationPusherBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPusherBaseClass.swift; sourceTree = "<group>"; };
+		C7D9CFAA29B8E21000EC1537 /* TimerBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBaseClass.swift; sourceTree = "<group>"; };
+		C7D9CFAC29B8E28000EC1537 /* TimerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +119,10 @@
 				C7D9CF6B29B20DD800EC1537 /* AlertApp.swift */,
 				C7D9CF6D29B20DD800EC1537 /* ContentView.swift */,
 				C7D9CF6F29B20DD900EC1537 /* Assets.xcassets */,
+				C7D9CF9729B8DCBC00EC1537 /* Model */,
 				C7D9CF7129B20DD900EC1537 /* Preview Content */,
+				C7D9CF9529B8DC9C00EC1537 /* View */,
+				C7D9CF9629B8DCA500EC1537 /* ViewModel */,
 			);
 			path = Alert;
 			sourceTree = "<group>";
@@ -125,6 +150,38 @@
 				C7D9CF8829B20DD900EC1537 /* AlertUITestsLaunchTests.swift */,
 			);
 			path = AlertUITests;
+			sourceTree = "<group>";
+		};
+		C7D9CF9529B8DC9C00EC1537 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7D9CF9829B8DD0800EC1537 /* SettingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7D9CF9629B8DCA500EC1537 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C7D9CF9A29B8DD5A00EC1537 /* MainViewModel.swift */,
+				C7D9CF9C29B8DD7E00EC1537 /* MainViewModelBaseClass.swift */,
+				C7D9CFA029B8DDB500EC1537 /* SettingViewModel.swift */,
+				C7D9CF9E29B8DDA600EC1537 /* SettingViewModelBaseClass.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C7D9CF9729B8DCBC00EC1537 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7D9CFA629B8E14F00EC1537 /* NotificationPusher.swift */,
+				C7D9CFA829B8E16300EC1537 /* NotificationPusherBaseClass.swift */,
+				C7D9CFAC29B8E28000EC1537 /* TimerClass.swift */,
+				C7D9CFAA29B8E21000EC1537 /* TimerBaseClass.swift */,
+				C7D9CFA429B8E04200EC1537 /* UserDefaultDao.swift */,
+				C7D9CFA229B8E03100EC1537 /* UserDefaultDaoBaseClass.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +314,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7D9CF9929B8DD0800EC1537 /* SettingView.swift in Sources */,
+				C7D9CFAB29B8E21000EC1537 /* TimerBaseClass.swift in Sources */,
+				C7D9CFA329B8E03100EC1537 /* UserDefaultDaoBaseClass.swift in Sources */,
+				C7D9CFA129B8DDB500EC1537 /* SettingViewModel.swift in Sources */,
+				C7D9CFAD29B8E28000EC1537 /* TimerClass.swift in Sources */,
+				C7D9CFA529B8E04200EC1537 /* UserDefaultDao.swift in Sources */,
+				C7D9CF9F29B8DDA600EC1537 /* SettingViewModelBaseClass.swift in Sources */,
 				C7D9CF6E29B20DD800EC1537 /* ContentView.swift in Sources */,
 				C7D9CF6C29B20DD800EC1537 /* AlertApp.swift in Sources */,
+				C7D9CF9B29B8DD5A00EC1537 /* MainViewModel.swift in Sources */,
+				C7D9CF9D29B8DD7E00EC1537 /* MainViewModelBaseClass.swift in Sources */,
+				C7D9CFA729B8E14F00EC1537 /* NotificationPusher.swift in Sources */,
+				C7D9CFA929B8E16300EC1537 /* NotificationPusherBaseClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
