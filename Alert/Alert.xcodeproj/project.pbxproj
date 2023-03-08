@@ -20,11 +20,11 @@
 		C7D9CF9F29B8DDA600EC1537 /* SettingViewModelBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CF9E29B8DDA600EC1537 /* SettingViewModelBaseClass.swift */; };
 		C7D9CFA129B8DDB500EC1537 /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CFA029B8DDB500EC1537 /* SettingViewModel.swift */; };
 		C7D9CFA329B8E03100EC1537 /* UserDefaultDaoBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CFA229B8E03100EC1537 /* UserDefaultDaoBaseClass.swift */; };
-		C7D9CFA529B8E04200EC1537 /* UserDefaultDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CFA429B8E04200EC1537 /* UserDefaultDao.swift */; };
 		C7D9CFA729B8E14F00EC1537 /* NotificationPusher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CFA629B8E14F00EC1537 /* NotificationPusher.swift */; };
 		C7D9CFA929B8E16300EC1537 /* NotificationPusherBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CFA829B8E16300EC1537 /* NotificationPusherBaseClass.swift */; };
 		C7D9CFAB29B8E21000EC1537 /* TimerBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CFAA29B8E21000EC1537 /* TimerBaseClass.swift */; };
 		C7D9CFAD29B8E28000EC1537 /* TimerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CFAC29B8E28000EC1537 /* TimerClass.swift */; };
+		C7D9CFAF29B8ED7100EC1537 /* UserDefaultDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D9CFAE29B8ED7100EC1537 /* UserDefaultDao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,11 +61,11 @@
 		C7D9CF9E29B8DDA600EC1537 /* SettingViewModelBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModelBaseClass.swift; sourceTree = "<group>"; };
 		C7D9CFA029B8DDB500EC1537 /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
 		C7D9CFA229B8E03100EC1537 /* UserDefaultDaoBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultDaoBaseClass.swift; sourceTree = "<group>"; };
-		C7D9CFA429B8E04200EC1537 /* UserDefaultDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultDao.swift; sourceTree = "<group>"; };
 		C7D9CFA629B8E14F00EC1537 /* NotificationPusher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPusher.swift; sourceTree = "<group>"; };
 		C7D9CFA829B8E16300EC1537 /* NotificationPusherBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPusherBaseClass.swift; sourceTree = "<group>"; };
 		C7D9CFAA29B8E21000EC1537 /* TimerBaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBaseClass.swift; sourceTree = "<group>"; };
 		C7D9CFAC29B8E28000EC1537 /* TimerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerClass.swift; sourceTree = "<group>"; };
+		C7D9CFAE29B8ED7100EC1537 /* UserDefaultDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultDao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,9 +176,9 @@
 			children = (
 				C7D9CFA629B8E14F00EC1537 /* NotificationPusher.swift */,
 				C7D9CFA829B8E16300EC1537 /* NotificationPusherBaseClass.swift */,
-				C7D9CFAC29B8E28000EC1537 /* TimerClass.swift */,
 				C7D9CFAA29B8E21000EC1537 /* TimerBaseClass.swift */,
-				C7D9CFA429B8E04200EC1537 /* UserDefaultDao.swift */,
+				C7D9CFAC29B8E28000EC1537 /* TimerClass.swift */,
+				C7D9CFAE29B8ED7100EC1537 /* UserDefaultDao.swift */,
 				C7D9CFA229B8E03100EC1537 /* UserDefaultDaoBaseClass.swift */,
 			);
 			path = Model;
@@ -319,7 +319,6 @@
 				C7D9CFA329B8E03100EC1537 /* UserDefaultDaoBaseClass.swift in Sources */,
 				C7D9CFA129B8DDB500EC1537 /* SettingViewModel.swift in Sources */,
 				C7D9CFAD29B8E28000EC1537 /* TimerClass.swift in Sources */,
-				C7D9CFA529B8E04200EC1537 /* UserDefaultDao.swift in Sources */,
 				C7D9CF9F29B8DDA600EC1537 /* SettingViewModelBaseClass.swift in Sources */,
 				C7D9CF6E29B20DD800EC1537 /* ContentView.swift in Sources */,
 				C7D9CF6C29B20DD800EC1537 /* AlertApp.swift in Sources */,
@@ -327,6 +326,7 @@
 				C7D9CF9D29B8DD7E00EC1537 /* MainViewModelBaseClass.swift in Sources */,
 				C7D9CFA729B8E14F00EC1537 /* NotificationPusher.swift in Sources */,
 				C7D9CFA929B8E16300EC1537 /* NotificationPusherBaseClass.swift in Sources */,
+				C7D9CFAF29B8ED7100EC1537 /* UserDefaultDao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
